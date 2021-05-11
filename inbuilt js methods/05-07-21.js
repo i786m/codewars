@@ -18,6 +18,10 @@ arr.reduce((acc,c)=>acc + c ,'') // '145236'
 
 // filter : creates a new array based on elements that prove true for a test condition that is passed into it
 //time complexity O(N)
+let arr = [1,4,5,2,3,6]
+arr.filter(num => num%2===0)//expected output [4,2,6]
+arr.filter(num => num%2!==0)//expected output [1,5,3]
+arr.filter(num => num<3)//expected output [1,2]
 
 // forEach: loops through the array and runs a callback function once for each of the elements
 //time complexity O(N)
