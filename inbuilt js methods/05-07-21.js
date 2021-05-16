@@ -106,3 +106,4 @@ a.every(e=>typeof e =='number') // true
 a.every(e=>e<10) // true
 a.every(e=>e%2==0) // false
 
+
